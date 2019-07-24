@@ -1,9 +1,10 @@
-import { getTodo } from './actions/todoActions';
+import { getTodo } from "./actions/todoActions";
 
 // AppContainer for react redux connect
 export const mapStateToProps = state => ({
-  todos: state.todo.todos,
-})
+  // add props that will be used globally.
+  // or that will be called right after opening the app.
+});
 
 export const mapDispatchToProps = {
   // add actions here.

@@ -31,10 +31,10 @@ import { mapStateToProps, mapDispatchToProps } from "./container";
 import { connect } from "react-redux";
 import Navigator from "./utils/routes";
 
-const App = ({ todos, getTodo }) => {
+const App = ({ getTodo }) => {
   useEffect(() => {
     getTodo();
-  })
+  });
   return (
     <Fragment>
       <Navigator />

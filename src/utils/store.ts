@@ -13,7 +13,7 @@ export default () => {
     reducers,
     // TODO: SAGA - add root saga middleware
     applyMiddleware(sagaMiddleware),
-  );;
+  );
   sagaMiddleware.run(rootSaga);
   return store;
 };
