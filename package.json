@@ -1,0 +1,48 @@
+{
+  "name": "rntypescriptdemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-native": "0.60.4",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-paper": "^2.16.0",
+    "react-native-reanimated": "^1.1.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.11.1",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@types/jest": "^24.0.15",
+    "@types/react": "^16.8.23",
+    "@types/react-native": "^0.60.2",
+    "@types/react-navigation": "^3.0.7",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-test-renderer": "^16.8.3",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.7",
+    "@types/redux-saga": "^0.10.5",
+    "@types/reselect": "^2.2.0",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-test-renderer": "16.8.6",
+    "redux-logger": "^3.0.6",
+    "typescript": "^3.5.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
